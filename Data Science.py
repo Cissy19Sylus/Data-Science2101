@@ -25,7 +25,7 @@ if st.checkbox('为牺牲的先烈献花'):
 
      st.title('音乐欣赏')
     if st.checkbox('重温"红色歌经典"'):
-    video_file = open('myvideo.mp4', 'rb')
+    video_file = open('长津湖.mp4', 'rb')
     video_bytes = video_file.read()
 
     st.video(video_bytes)
