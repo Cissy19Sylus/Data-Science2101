@@ -1,8 +1,8 @@
 import streamlit as st
 
 st.title('追思缅怀敬先烈，砥砺前行建新功')
-if st.checkbox('为牺牲的先烈献花'):
-    st.title('红色歌曲欣赏')
+if st.checkbox('勾选左侧方框，为牺牲的先烈献花🏵'):
+    st.title('1.红色歌曲欣赏')
     if st.checkbox('欣赏"红色歌曲"'):
       with st.container():
         option = st.selectbox(
@@ -22,7 +22,7 @@ if st.checkbox('为牺牲的先烈献花'):
           audio_bytes = audio_file.read()
           st.audio(audio_bytes, format='audio/wav')
 
-    st.title('欣赏红色视频')
+    st.title('2.欣赏红色视频')
     if st.checkbox('重温"红色歌经典"'):
       video_file = open('./长津湖.mp4', 'rb')
       video_bytes = video_file.read()
