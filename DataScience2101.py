@@ -30,7 +30,7 @@ if st.checkbox('勾选左侧方框，为牺牲的先烈献花🏵'):
       st.video(video_bytes)
       st.write('视频来自抖音jianji3616')
     st.title('3.团支部舞台剧展示')
-    if st.checkbox('开始展示"'):
+    if st.checkbox('开始展示！'):
       video_file = open('./舞台剧.mp4', 'rb')
       video_bytes = video_file.read()
 
