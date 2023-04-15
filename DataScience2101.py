@@ -28,3 +28,6 @@ if st.checkbox('勾选左侧方框，为牺牲的先烈献花🏵'):
       video_bytes = video_file.read()
 
       st.video(video_bytes)
+
+backgroundColor="#FFFFFF"
+tittleColor="#00f900"
